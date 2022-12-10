@@ -1,6 +1,5 @@
 
-from flask import Flask, render_template, redirect, session, request, flash
-
+from flask import Flask
 
 
 PORT = 5000
@@ -8,13 +7,6 @@ PORT = 5000
 
 app = Flask(__name__)
 
-
-
-
-# create flask app
-app, db = create_app()
-
-####################
 
 
 ###############
